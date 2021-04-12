@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D10A CR Helper</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <script src="https://kit.fontawesome.com/f635a28c1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%;
+        line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+        background-position: center;
+        background-size: cover;
+        background-image: url("/static/file_uploads/mac-img.jpg");
+        min-height: 100%;
+    }
+
+    i {
+        padding-right: 5px;
+    }
+
+    @media(max-width: 500px) {
+        .bgimg-1 {
+            background-position: center;
+            background-size: cover;
+            background-image: url("/static/file_uploads/lap-img-mob.jpg");
+            min-height: 100%;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body,
+        html {
+            height: 100%;
+            line-height: 1.7;
+        }
+
+        i {
+            padding-right: 5px;
+        }
+    }
+</style>
+
+<body>
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+            <span class="w3-jumbo w3-hide-small">It's Simple</span><br>
+            <span class="w3-xxlarge w3-hide-large w3-hide-medium">It's Simple</span><br>
+            <span class="w3-large">Start Learning</span>
+            <p><a href="{{ url_for('lec_maths') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">Maths
+                </a></p>
+            <p><a href="{{ url_for('lec_cnnd') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">CNND
+                </a></p>
+            <p><a href="{{ url_for('lec_python') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">Python</a>
+            </p>
+            <p><a href="{{ url_for('lec_automata') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">A.T.
+                </a></p>
+            <p><a href="{{ url_for('lec_os') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">O.S.
+                </a></p>
+            <p><a href="{{ url_for('lec_coa') }}"
+                    class="w3-button w3-white w3-padding-large w3-medium w3-margin-top w3-opacity w3-hover-opacity-off">C.O.A.</a>
+            </p>
+
+        </div>
+        <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+            <a href = "https://www.instagram.com/sreekesh.this.side/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href = "https://github.com/sreekeshiyer"><i class="fab fa-github w3-hover-opacity"></i></a>
+            <a href = "https://twitter.com/ZenonTweets"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href = "https://www.linkedin.com/in/sreekesh-iyer/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        </div>
+    </header>
+</body>
+
+</html>
