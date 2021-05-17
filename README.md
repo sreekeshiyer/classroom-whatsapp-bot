@@ -19,7 +19,7 @@ pip install flask
 ## Usage
 
 ```bash
-python run.py
+python main.py
 ```
 
 ## Contributing
